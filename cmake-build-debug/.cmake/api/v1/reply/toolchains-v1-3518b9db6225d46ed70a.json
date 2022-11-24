@@ -1,0 +1,90 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"E:/program files/MinGW/lib/gcc/mingw32/6.3.0/include",
+						"E:/program files/MinGW/include",
+						"E:/program files/MinGW/lib/gcc/mingw32/6.3.0/include-fixed",
+						"E:/program files/MinGW/mingw32/include"
+					],
+					"linkDirectories" : [],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : []
+				},
+				"path" : "E:/program files/MinGW/bin/gcc.exe",
+				"version" : "6.3.0"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"E:/program files/MinGW/lib/gcc/mingw32/6.3.0/include/c++",
+						"E:/program files/MinGW/lib/gcc/mingw32/6.3.0/include/c++/mingw32",
+						"E:/program files/MinGW/lib/gcc/mingw32/6.3.0/include/c++/backward",
+						"E:/program files/MinGW/lib/gcc/mingw32/6.3.0/include",
+						"E:/program files/MinGW/include",
+						"E:/program files/MinGW/lib/gcc/mingw32/6.3.0/include-fixed",
+						"E:/program files/MinGW/mingw32/include"
+					],
+					"linkDirectories" : [],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : []
+				},
+				"path" : "E:/program files/MinGW/bin/c++.exe",
+				"version" : "6.3.0"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"mm",
+				"mpp",
+				"CPP",
+				"ixx",
+				"cppm"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"implicit" : {},
+				"path" : "E:/program files/MinGW/bin/windres.exe"
+			},
+			"language" : "RC",
+			"sourceFileExtensions" : 
+			[
+				"rc",
+				"RC"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

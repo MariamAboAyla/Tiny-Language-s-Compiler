@@ -1,0 +1,4 @@
+ToolSet: 5.0 (local)@E:\program files\MinGW
+Options: 
+
+Options:-DCMAKE_MAKE_PROGRAM=E:/programs/CLion 2022.1.2/bin/ninja/win/ninja.exe
