@@ -6,7 +6,10 @@
 #include "parser.cpp"
 using namespace std;
 int main() {
-    CompilerInfo compiler("input.txt", "output.txt", "debug.txt");
+    string filePath;
+    cout<<"Please Enter File Path \n";
+    getline(cin,filePath);
+    CompilerInfo compiler(filePath.c_str(), "output.txt", "debug.txt");
 
     cout << "Start main()\n";
 
@@ -16,6 +19,5 @@ int main() {
 
     cout << "End main()\n";
 
-    return 0;
     return 0;
 }

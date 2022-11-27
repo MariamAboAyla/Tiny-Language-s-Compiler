@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/Projects/Tiny-Language-s-Compiler/main.cpp" "CMakeFiles/Tiny-Language-s-Compiler.dir/main.cpp.obj" "gcc" "CMakeFiles/Tiny-Language-s-Compiler.dir/main.cpp.obj.d"
+  "C:/Users/DELL/Documents/GitHub/Tiny-Language-s-Compiler/main.cpp" "CMakeFiles/Tiny-Language-s-Compiler.dir/main.cpp.obj" "gcc" "CMakeFiles/Tiny-Language-s-Compiler.dir/main.cpp.obj.d"
   )
 
 # Targets to which this target links.
