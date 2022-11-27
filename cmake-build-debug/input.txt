@@ -3,16 +3,18 @@
   compute factorial
 }
 
-read x; {input an integer}
-read j;
-if 0<x then {compute only if x>=1}
-  x:=x-1
-else
-  j:=4
-end;
-read x;
-write x;
-h:= 3+5*2-1;
-{h := h*2+4^3;}
-y:=4^2
 
+read x; {input an integer}
+if 0<x then {compute only if x>=1}
+  fact:=1;
+  repeat
+    fact := fact * x;
+    x:=x-1
+  until x=0;
+  write fact {output factorial}
+end;
+if x < y then
+    y:=4
+end;
+z:=x+y*3^5-3/9;
+m:=m*8-4/15

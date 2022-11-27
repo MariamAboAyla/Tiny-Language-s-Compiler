@@ -479,11 +479,11 @@ TreeNode *Factor(CompilerInfo *compiler, ParseInfo *parseInfo) {
         GetNextToken(compiler, &parseInfo->next_token);
 
         // assign the right-node to the OPER node
-        TreeNode *rightNode = newExpression(compiler, parseInfo);
+        TreeNode *rightNode = Factor(compiler, parseInfo);
         rootNode->child[1] = rightNode;
 
-        node = rightNode;
-
+//        node = rightNode;
+        return rootNode;
     }
     return node;
 }
