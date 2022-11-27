@@ -1,6 +1,6 @@
-The system is: Windows - 10.0.19045 - AMD64
+The system is: Windows - 10.0.19044 - AMD64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: E:/program files/MinGW/bin/gcc.exe 
+Compiler: D:/Program Files/CLion 2021.3/bin/mingw/bin/gcc.exe 
 Build flags: 
 Id flags:  
 
@@ -10,10 +10,10 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
 
-The C compiler identification is GNU, found in "D:/FCAI/YEARS/YEAR4/first term/Compilers/assignments/assignment2/solution/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/a.exe"
+The C compiler identification is GNU, found in "D:/Projects/Tiny-Language-s-Compiler/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/a.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: E:/program files/MinGW/bin/c++.exe 
+Compiler: D:/Program Files/CLion 2021.3/bin/mingw/bin/g++.exe 
 Build flags: 
 Id flags:  
 
@@ -23,139 +23,161 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
 
-The CXX compiler identification is GNU, found in "D:/FCAI/YEARS/YEAR4/first term/Compilers/assignments/assignment2/solution/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/a.exe"
+The CXX compiler identification is GNU, found in "D:/Projects/Tiny-Language-s-Compiler/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdCXX/a.exe"
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: D:/FCAI/YEARS/YEAR4/first term/Compilers/assignments/assignment2/solution/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: D:/Projects/Tiny-Language-s-Compiler/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):E:/programs/CLion 2022.1.2/bin/ninja/win/ninja.exe cmTC_3d9a8 && [1/2] Building C object CMakeFiles/cmTC_3d9a8.dir/CMakeCCompilerABI.c.obj
+Run Build Command(s):D:/Program Files/CLion 2021.3/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_7ec63/fast && D:/Program Files/CLion 2021.3/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_7ec63.dir\build.make CMakeFiles/cmTC_7ec63.dir/build
+mingw32-make[1]: Entering directory 'D:/Projects/Tiny-Language-s-Compiler/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7ec63.dir/CMakeCCompilerABI.c.obj
+"D:\Program Files\CLion 2021.3\bin\mingw\bin\gcc.exe"   -v -o CMakeFiles\cmTC_7ec63.dir\CMakeCCompilerABI.c.obj -c "D:\Program Files\CLion 2021.3\bin\cmake\win\share\cmake-3.21\Modules\CMakeCCompilerABI.c"
 Using built-in specs.
-COLLECT_GCC=E:\program files\MinGW\bin\gcc.exe
-Target: mingw32
-Configured with: ../src/gcc-6.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --target=mingw32 --with-gmp=/mingw --with-mpfr --with-mpc=/mingw --with-isl=/mingw --prefix=/mingw --disable-win32-registry --with-arch=i586 --with-tune=generic --enable-languages=c,c++,objc,obj-c++,fortran,ada --with-pkgversion='MinGW.org GCC-6.3.0-1' --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --enable-libgomp --disable-libvtv --enable-nls
-Thread model: win32
-gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3d9a8.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i586'
- e:/program files/mingw/bin/../libexec/gcc/mingw32/6.3.0/cc1.exe -quiet -v -iprefix e:\program files\mingw\bin\../lib/gcc/mingw32/6.3.0/ E:/programs/CLion 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=i586 -auxbase-strip CMakeFiles/cmTC_3d9a8.dir/CMakeCCompilerABI.c.obj -version -o C:\Users\Zbook\AppData\Local\Temp\ccDJAVxB.s
-GNU C11 (MinGW.org GCC-6.3.0-1) version 6.3.0 (mingw32)
-	compiled by GNU C version 6.3.0, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.3, isl version 0.15
+COLLECT_GCC=D:\Program Files\CLion 2021.3\bin\mingw\bin\gcc.exe
+Target: x86_64-w64-mingw32
+Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_7ec63.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_7ec63.dir\'
+ D:/Program Files/CLion 2021.3/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1.exe -quiet -v -iprefix D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT D:\Program Files\CLion 2021.3\bin\cmake\win\share\cmake-3.21\Modules\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\cmTC_7ec63.dir\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\Users\Hema\AppData\Local\Temp\ccBN2QWu.s
+GNU C17 (GCC) version 11.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-ignoring duplicate directory "e:/program files/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include"
-ignoring nonexistent directory "/mingw/include"
-ignoring duplicate directory "e:/program files/mingw/lib/gcc/../../include"
-ignoring duplicate directory "e:/program files/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include-fixed"
-ignoring duplicate directory "e:/program files/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"
+ignoring duplicate directory "D:/Program Files/CLion 2021.3/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+ignoring nonexistent directory "/win/include"
+ignoring duplicate directory "D:/Program Files/CLion 2021.3/bin/mingw/lib/gcc/../../include"
+ignoring duplicate directory "D:/Program Files/CLion 2021.3/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+ignoring duplicate directory "D:/Program Files/CLion 2021.3/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
 ignoring nonexistent directory "/mingw/include"
 #include "..." search starts here:
 #include <...> search starts here:
- e:\program files\mingw\bin\../lib/gcc/mingw32/6.3.0/include
- e:\program files\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include
- e:\program files\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed
- e:\program files\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include
+ D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+ D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include
+ D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+ D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
 End of search list.
-GNU C11 (MinGW.org GCC-6.3.0-1) version 6.3.0 (mingw32)
-	compiled by GNU C version 6.3.0, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.3, isl version 0.15
+GNU C17 (GCC) version 11.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-Compiler executable checksum: 384cad586f05ed581a9c068b2f18b408
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3d9a8.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i586'
- e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles/cmTC_3d9a8.dir/CMakeCCompilerABI.c.obj C:\Users\Zbook\AppData\Local\Temp\ccDJAVxB.s
-GNU assembler version 2.28 (mingw32) using BFD version (GNU Binutils) 2.28
-COMPILER_PATH=e:/program files/mingw/bin/../libexec/gcc/mingw32/6.3.0/;e:/program files/mingw/bin/../libexec/gcc/;e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/
-LIBRARY_PATH=e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/;e:/program files/mingw/bin/../lib/gcc/;e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/;e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3d9a8.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i586'
-[2/2] Linking C executable cmTC_3d9a8.exe
+Compiler executable checksum: 23424b72d090e8b977a96775bde79257
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_7ec63.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_7ec63.dir\'
+ as -v -o CMakeFiles\cmTC_7ec63.dir\CMakeCCompilerABI.c.obj C:\Users\Hema\AppData\Local\Temp\ccBN2QWu.s
+GNU assembler version 2.37 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.37
+COMPILER_PATH=D:/Program Files/CLion 2021.3/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;D:/Program Files/CLion 2021.3/bin/mingw/bin/../libexec/gcc/
+LIBRARY_PATH=D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/;D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_7ec63.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_7ec63.dir\CMakeCCompilerABI.c.'
+Linking C executable cmTC_7ec63.exe
+"D:\Program Files\CLion 2021.3\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_7ec63.dir\link.txt --verbose=1
+"D:\Program Files\CLion 2021.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_7ec63.dir/objects.a
+"D:\Program Files\CLion 2021.3\bin\mingw\bin\ar.exe" qc CMakeFiles\cmTC_7ec63.dir/objects.a @CMakeFiles\cmTC_7ec63.dir\objects1.rsp
+"D:\Program Files\CLion 2021.3\bin\mingw\bin\gcc.exe"  -v -Wl,--whole-archive CMakeFiles\cmTC_7ec63.dir/objects.a -Wl,--no-whole-archive -o cmTC_7ec63.exe -Wl,--out-implib,libcmTC_7ec63.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 Using built-in specs.
-COLLECT_GCC=E:\program files\MinGW\bin\gcc.exe
-COLLECT_LTO_WRAPPER=e:/program\ files/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe
-Target: mingw32
-Configured with: ../src/gcc-6.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --target=mingw32 --with-gmp=/mingw --with-mpfr --with-mpc=/mingw --with-isl=/mingw --prefix=/mingw --disable-win32-registry --with-arch=i586 --with-tune=generic --enable-languages=c,c++,objc,obj-c++,fortran,ada --with-pkgversion='MinGW.org GCC-6.3.0-1' --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --enable-libgomp --disable-libvtv --enable-nls
-Thread model: win32
-gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) 
-COMPILER_PATH=e:/program files/mingw/bin/../libexec/gcc/mingw32/6.3.0/;e:/program files/mingw/bin/../libexec/gcc/;e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/
-LIBRARY_PATH=e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/;e:/program files/mingw/bin/../lib/gcc/;e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/;e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3d9a8.exe' '-mtune=generic' '-march=i586'
- e:/program files/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin e:/program files/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=e:/program files/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Zbook\AppData\Local\Temp\cclkLqsS.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -o cmTC_3d9a8.exe e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Le:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0 -Le:/program files/mingw/bin/../lib/gcc -Le:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Le:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. CMakeFiles/cmTC_3d9a8.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_3d9a8.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3d9a8.exe' '-mtune=generic' '-march=i586'
+COLLECT_GCC=D:\Program Files\CLion 2021.3\bin\mingw\bin\gcc.exe
+COLLECT_LTO_WRAPPER=D:/Program\ Files/CLion\ 2021.3/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe
+Target: x86_64-w64-mingw32
+Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (GCC) 
+COMPILER_PATH=D:/Program Files/CLion 2021.3/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;D:/Program Files/CLion 2021.3/bin/mingw/bin/../libexec/gcc/
+LIBRARY_PATH=D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/;D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7ec63.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_7ec63.'
+ D:/Program Files/CLion 2021.3/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_7ec63.exe D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LD:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LD:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc -LD:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -LD:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LD:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. --whole-archive CMakeFiles\cmTC_7ec63.dir/objects.a --no-whole-archive --out-implib libcmTC_7ec63.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7ec63.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_7ec63.'
+mingw32-make[1]: Leaving directory 'D:/Projects/Tiny-Language-s-Compiler/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 
 Parsed C implicit include dir info from above output: rv=done
   found start of include info
   found start of implicit include info
-    add: [e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/include]
-    add: [e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../include]
-    add: [e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/include-fixed]
-    add: [e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/include]
+    add: [D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include]
+    add: [D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include]
+    add: [D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed]
+    add: [D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include]
   end of search list found
-  collapse include dir [e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/include] ==> [E:/program files/MinGW/lib/gcc/mingw32/6.3.0/include]
-  collapse include dir [e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../include] ==> [E:/program files/MinGW/include]
-  collapse include dir [e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/include-fixed] ==> [E:/program files/MinGW/lib/gcc/mingw32/6.3.0/include-fixed]
-  collapse include dir [e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/include] ==> [E:/program files/MinGW/mingw32/include]
-  implicit include dirs: [E:/program files/MinGW/lib/gcc/mingw32/6.3.0/include;E:/program files/MinGW/include;E:/program files/MinGW/lib/gcc/mingw32/6.3.0/include-fixed;E:/program files/MinGW/mingw32/include]
+  collapse include dir [D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include] ==> [D:/Program Files/CLion 2021.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include]
+  collapse include dir [D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include] ==> [D:/Program Files/CLion 2021.3/bin/mingw/include]
+  collapse include dir [D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed] ==> [D:/Program Files/CLion 2021.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed]
+  collapse include dir [D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include] ==> [D:/Program Files/CLion 2021.3/bin/mingw/x86_64-w64-mingw32/include]
+  implicit include dirs: [D:/Program Files/CLion 2021.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include;D:/Program Files/CLion 2021.3/bin/mingw/include;D:/Program Files/CLion 2021.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed;D:/Program Files/CLion 2021.3/bin/mingw/x86_64-w64-mingw32/include]
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: D:/FCAI/YEARS/YEAR4/first term/Compilers/assignments/assignment2/solution/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: D:/Projects/Tiny-Language-s-Compiler/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):E:/programs/CLion 2022.1.2/bin/ninja/win/ninja.exe cmTC_3d9a8 && [1/2] Building C object CMakeFiles/cmTC_3d9a8.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [Run Build Command(s):D:/Program Files/CLion 2021.3/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_7ec63/fast && D:/Program Files/CLion 2021.3/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_7ec63.dir\build.make CMakeFiles/cmTC_7ec63.dir/build]
+  ignore line: [mingw32-make[1]: Entering directory 'D:/Projects/Tiny-Language-s-Compiler/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_7ec63.dir/CMakeCCompilerABI.c.obj]
+  ignore line: ["D:\Program Files\CLion 2021.3\bin\mingw\bin\gcc.exe"   -v -o CMakeFiles\cmTC_7ec63.dir\CMakeCCompilerABI.c.obj -c "D:\Program Files\CLion 2021.3\bin\cmake\win\share\cmake-3.21\Modules\CMakeCCompilerABI.c"]
   ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=E:\program files\MinGW\bin\gcc.exe]
-  ignore line: [Target: mingw32]
-  ignore line: [Configured with: ../src/gcc-6.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --target=mingw32 --with-gmp=/mingw --with-mpfr --with-mpc=/mingw --with-isl=/mingw --prefix=/mingw --disable-win32-registry --with-arch=i586 --with-tune=generic --enable-languages=c c++ objc obj-c++ fortran ada --with-pkgversion='MinGW.org GCC-6.3.0-1' --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --enable-libgomp --disable-libvtv --enable-nls]
-  ignore line: [Thread model: win32]
-  ignore line: [gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3d9a8.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i586']
-  ignore line: [ e:/program files/mingw/bin/../libexec/gcc/mingw32/6.3.0/cc1.exe -quiet -v -iprefix e:\program files\mingw\bin\../lib/gcc/mingw32/6.3.0/ E:/programs/CLion 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=i586 -auxbase-strip CMakeFiles/cmTC_3d9a8.dir/CMakeCCompilerABI.c.obj -version -o C:\Users\Zbook\AppData\Local\Temp\ccDJAVxB.s]
-  ignore line: [GNU C11 (MinGW.org GCC-6.3.0-1) version 6.3.0 (mingw32)]
-  ignore line: [	compiled by GNU C version 6.3.0  GMP version 6.1.2  MPFR version 3.1.5  MPC version 1.0.3  isl version 0.15]
+  ignore line: [COLLECT_GCC=D:\Program Files\CLion 2021.3\bin\mingw\bin\gcc.exe]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.2.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_7ec63.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_7ec63.dir\']
+  ignore line: [ D:/Program Files/CLion 2021.3/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1.exe -quiet -v -iprefix D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT D:\Program Files\CLion 2021.3\bin\cmake\win\share\cmake-3.21\Modules\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\cmTC_7ec63.dir\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\Users\Hema\AppData\Local\Temp\ccBN2QWu.s]
+  ignore line: [GNU C17 (GCC) version 11.2.0 (x86_64-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-  ignore line: [ignoring duplicate directory "e:/program files/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include"]
-  ignore line: [ignoring nonexistent directory "/mingw/include"]
-  ignore line: [ignoring duplicate directory "e:/program files/mingw/lib/gcc/../../include"]
-  ignore line: [ignoring duplicate directory "e:/program files/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include-fixed"]
-  ignore line: [ignoring duplicate directory "e:/program files/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"]
+  ignore line: [ignoring duplicate directory "D:/Program Files/CLion 2021.3/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"]
+  ignore line: [ignoring nonexistent directory "/win/include"]
+  ignore line: [ignoring duplicate directory "D:/Program Files/CLion 2021.3/bin/mingw/lib/gcc/../../include"]
+  ignore line: [ignoring duplicate directory "D:/Program Files/CLion 2021.3/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "D:/Program Files/CLion 2021.3/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"]
   ignore line: [ignoring nonexistent directory "/mingw/include"]
   ignore line: [#include "..." search starts here:]
   ignore line: [#include <...> search starts here:]
-  ignore line: [ e:\program files\mingw\bin\../lib/gcc/mingw32/6.3.0/include]
-  ignore line: [ e:\program files\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include]
-  ignore line: [ e:\program files\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed]
-  ignore line: [ e:\program files\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include]
+  ignore line: [ D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include]
+  ignore line: [ D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include]
+  ignore line: [ D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed]
+  ignore line: [ D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include]
   ignore line: [End of search list.]
-  ignore line: [GNU C11 (MinGW.org GCC-6.3.0-1) version 6.3.0 (mingw32)]
-  ignore line: [	compiled by GNU C version 6.3.0  GMP version 6.1.2  MPFR version 3.1.5  MPC version 1.0.3  isl version 0.15]
+  ignore line: [GNU C17 (GCC) version 11.2.0 (x86_64-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-  ignore line: [Compiler executable checksum: 384cad586f05ed581a9c068b2f18b408]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3d9a8.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i586']
-  ignore line: [ e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles/cmTC_3d9a8.dir/CMakeCCompilerABI.c.obj C:\Users\Zbook\AppData\Local\Temp\ccDJAVxB.s]
-  ignore line: [GNU assembler version 2.28 (mingw32) using BFD version (GNU Binutils) 2.28]
-  ignore line: [COMPILER_PATH=e:/program files/mingw/bin/../libexec/gcc/mingw32/6.3.0/]
-  ignore line: [e:/program files/mingw/bin/../libexec/gcc/]
-  ignore line: [e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/]
-  ignore line: [LIBRARY_PATH=e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/]
-  ignore line: [e:/program files/mingw/bin/../lib/gcc/]
-  ignore line: [e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/]
-  ignore line: [e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3d9a8.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i586']
-  ignore line: [[2/2] Linking C executable cmTC_3d9a8.exe]
+  ignore line: [Compiler executable checksum: 23424b72d090e8b977a96775bde79257]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_7ec63.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_7ec63.dir\']
+  ignore line: [ as -v -o CMakeFiles\cmTC_7ec63.dir\CMakeCCompilerABI.c.obj C:\Users\Hema\AppData\Local\Temp\ccBN2QWu.s]
+  ignore line: [GNU assembler version 2.37 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.37]
+  ignore line: [COMPILER_PATH=D:/Program Files/CLion 2021.3/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/]
+  ignore line: [D:/Program Files/CLion 2021.3/bin/mingw/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/]
+  ignore line: [D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/]
+  ignore line: [D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/]
+  ignore line: [D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_7ec63.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_7ec63.dir\CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_7ec63.exe]
+  ignore line: ["D:\Program Files\CLion 2021.3\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_7ec63.dir\link.txt --verbose=1]
+  ignore line: ["D:\Program Files\CLion 2021.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_7ec63.dir/objects.a]
+  ignore line: ["D:\Program Files\CLion 2021.3\bin\mingw\bin\ar.exe" qc CMakeFiles\cmTC_7ec63.dir/objects.a @CMakeFiles\cmTC_7ec63.dir\objects1.rsp]
+  ignore line: ["D:\Program Files\CLion 2021.3\bin\mingw\bin\gcc.exe"  -v -Wl --whole-archive CMakeFiles\cmTC_7ec63.dir/objects.a -Wl --no-whole-archive -o cmTC_7ec63.exe -Wl --out-implib libcmTC_7ec63.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
   ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=E:\program files\MinGW\bin\gcc.exe]
-  ignore line: [COLLECT_LTO_WRAPPER=e:/program\ files/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe]
-  ignore line: [Target: mingw32]
-  ignore line: [Configured with: ../src/gcc-6.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --target=mingw32 --with-gmp=/mingw --with-mpfr --with-mpc=/mingw --with-isl=/mingw --prefix=/mingw --disable-win32-registry --with-arch=i586 --with-tune=generic --enable-languages=c c++ objc obj-c++ fortran ada --with-pkgversion='MinGW.org GCC-6.3.0-1' --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --enable-libgomp --disable-libvtv --enable-nls]
-  ignore line: [Thread model: win32]
-  ignore line: [gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) ]
-  ignore line: [COMPILER_PATH=e:/program files/mingw/bin/../libexec/gcc/mingw32/6.3.0/]
-  ignore line: [e:/program files/mingw/bin/../libexec/gcc/]
-  ignore line: [e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/]
-  ignore line: [LIBRARY_PATH=e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/]
-  ignore line: [e:/program files/mingw/bin/../lib/gcc/]
-  ignore line: [e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/]
-  ignore line: [e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3d9a8.exe' '-mtune=generic' '-march=i586']
-  ignore line: [ e:/program files/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin e:/program files/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=e:/program files/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Zbook\AppData\Local\Temp\cclkLqsS.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -o cmTC_3d9a8.exe e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Le:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0 -Le:/program files/mingw/bin/../lib/gcc -Le:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Le:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. CMakeFiles/cmTC_3d9a8.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_3d9a8.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3d9a8.exe' '-mtune=generic' '-march=i586']
+  ignore line: [COLLECT_GCC=D:\Program Files\CLion 2021.3\bin\mingw\bin\gcc.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=D:/Program\ Files/CLion\ 2021.3/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.2.0 (GCC) ]
+  ignore line: [COMPILER_PATH=D:/Program Files/CLion 2021.3/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/]
+  ignore line: [D:/Program Files/CLion 2021.3/bin/mingw/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/]
+  ignore line: [D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/]
+  ignore line: [D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/]
+  ignore line: [D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7ec63.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_7ec63.']
+  ignore line: [ D:/Program Files/CLion 2021.3/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_7ec63.exe D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LD:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LD:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc -LD:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -LD:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LD:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. --whole-archive CMakeFiles\cmTC_7ec63.dir/objects.a --no-whole-archive --out-implib libcmTC_7ec63.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7ec63.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_7ec63.']
+  ignore line: [mingw32-make[1]: Leaving directory 'D:/Projects/Tiny-Language-s-Compiler/cmake-build-debug/CMakeFiles/CMakeTmp']
   ignore line: []
   ignore line: []
   implicit libs: []
@@ -165,158 +187,176 @@ Parsed C implicit link information from above output:
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: D:/FCAI/YEARS/YEAR4/first term/Compilers/assignments/assignment2/solution/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: D:/Projects/Tiny-Language-s-Compiler/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):E:/programs/CLion 2022.1.2/bin/ninja/win/ninja.exe cmTC_8e8be && [1/2] Building CXX object CMakeFiles/cmTC_8e8be.dir/CMakeCXXCompilerABI.cpp.obj
+Run Build Command(s):D:/Program Files/CLion 2021.3/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_63017/fast && D:/Program Files/CLion 2021.3/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_63017.dir\build.make CMakeFiles/cmTC_63017.dir/build
+mingw32-make[1]: Entering directory 'D:/Projects/Tiny-Language-s-Compiler/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_63017.dir/CMakeCXXCompilerABI.cpp.obj
+"D:\Program Files\CLion 2021.3\bin\mingw\bin\g++.exe"   -v -o CMakeFiles\cmTC_63017.dir\CMakeCXXCompilerABI.cpp.obj -c "D:\Program Files\CLion 2021.3\bin\cmake\win\share\cmake-3.21\Modules\CMakeCXXCompilerABI.cpp"
 Using built-in specs.
-COLLECT_GCC=E:\program files\MinGW\bin\c++.exe
-Target: mingw32
-Configured with: ../src/gcc-6.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --with-gmp=/mingw --with-mpfr=/mingw --with-mpc=/mingw --with-isl=/mingw --prefix=/mingw --disable-win32-registry --target=mingw32 --with-arch=i586 --enable-languages=c,c++,objc,obj-c++,fortran,ada --with-pkgversion='MinGW.org GCC-6.3.0-1' --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --with-tune=generic --enable-libgomp --disable-libvtv --enable-nls
-Thread model: win32
-gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8e8be.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586'
- e:/program files/mingw/bin/../libexec/gcc/mingw32/6.3.0/cc1plus.exe -quiet -v -iprefix e:\program files\mingw\bin\../lib/gcc/mingw32/6.3.0/ E:/programs/CLion 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=i586 -auxbase-strip CMakeFiles/cmTC_8e8be.dir/CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\Zbook\AppData\Local\Temp\ccQF4zyj.s
-GNU C++14 (MinGW.org GCC-6.3.0-1) version 6.3.0 (mingw32)
-	compiled by GNU C version 6.3.0, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.2, isl version 0.15
-warning: MPC header version 1.0.2 differs from library version 1.0.3.
+COLLECT_GCC=D:\Program Files\CLion 2021.3\bin\mingw\bin\g++.exe
+Target: x86_64-w64-mingw32
+Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_63017.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_63017.dir\'
+ D:/Program Files/CLion 2021.3/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -quiet -v -iprefix D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT D:\Program Files\CLion 2021.3\bin\cmake\win\share\cmake-3.21\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\cmTC_63017.dir\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\Users\Hema\AppData\Local\Temp\ccTy7eNX.s
+GNU C++17 (GCC) version 11.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-ignoring duplicate directory "e:/program files/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include/c++"
-ignoring duplicate directory "e:/program files/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include/c++/mingw32"
-ignoring duplicate directory "e:/program files/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include/c++/backward"
-ignoring duplicate directory "e:/program files/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include"
-ignoring nonexistent directory "/mingw/include"
-ignoring duplicate directory "e:/program files/mingw/lib/gcc/../../include"
-ignoring duplicate directory "e:/program files/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include-fixed"
-ignoring duplicate directory "e:/program files/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"
+ignoring duplicate directory "D:/Program Files/CLion 2021.3/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"
+ignoring duplicate directory "D:/Program Files/CLion 2021.3/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"
+ignoring duplicate directory "D:/Program Files/CLion 2021.3/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"
+ignoring duplicate directory "D:/Program Files/CLion 2021.3/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+ignoring nonexistent directory "/win/include"
+ignoring duplicate directory "D:/Program Files/CLion 2021.3/bin/mingw/lib/gcc/../../include"
+ignoring duplicate directory "D:/Program Files/CLion 2021.3/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+ignoring duplicate directory "D:/Program Files/CLion 2021.3/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
 ignoring nonexistent directory "/mingw/include"
 #include "..." search starts here:
 #include <...> search starts here:
- e:\program files\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++
- e:\program files\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32
- e:\program files\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward
- e:\program files\mingw\bin\../lib/gcc/mingw32/6.3.0/include
- e:\program files\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include
- e:\program files\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed
- e:\program files\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include
+ D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++
+ D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32
+ D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward
+ D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+ D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include
+ D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+ D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
 End of search list.
-GNU C++14 (MinGW.org GCC-6.3.0-1) version 6.3.0 (mingw32)
-	compiled by GNU C version 6.3.0, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.2, isl version 0.15
-warning: MPC header version 1.0.2 differs from library version 1.0.3.
+GNU C++17 (GCC) version 11.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-Compiler executable checksum: af09a87986453bf79da3565f33c7648f
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8e8be.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586'
- e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles/cmTC_8e8be.dir/CMakeCXXCompilerABI.cpp.obj C:\Users\Zbook\AppData\Local\Temp\ccQF4zyj.s
-GNU assembler version 2.28 (mingw32) using BFD version (GNU Binutils) 2.28
-COMPILER_PATH=e:/program files/mingw/bin/../libexec/gcc/mingw32/6.3.0/;e:/program files/mingw/bin/../libexec/gcc/;e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/
-LIBRARY_PATH=e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/;e:/program files/mingw/bin/../lib/gcc/;e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/;e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8e8be.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586'
-[2/2] Linking CXX executable cmTC_8e8be.exe
+Compiler executable checksum: 916242a6eadede3a42d72bc0142b939f
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_63017.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_63017.dir\'
+ as -v -o CMakeFiles\cmTC_63017.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\Hema\AppData\Local\Temp\ccTy7eNX.s
+GNU assembler version 2.37 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.37
+COMPILER_PATH=D:/Program Files/CLion 2021.3/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;D:/Program Files/CLion 2021.3/bin/mingw/bin/../libexec/gcc/
+LIBRARY_PATH=D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/;D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_63017.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_63017.dir\CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_63017.exe
+"D:\Program Files\CLion 2021.3\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_63017.dir\link.txt --verbose=1
+"D:\Program Files\CLion 2021.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_63017.dir/objects.a
+"D:\Program Files\CLion 2021.3\bin\mingw\bin\ar.exe" qc CMakeFiles\cmTC_63017.dir/objects.a @CMakeFiles\cmTC_63017.dir\objects1.rsp
+"D:\Program Files\CLion 2021.3\bin\mingw\bin\g++.exe"  -v -Wl,--whole-archive CMakeFiles\cmTC_63017.dir/objects.a -Wl,--no-whole-archive -o cmTC_63017.exe -Wl,--out-implib,libcmTC_63017.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 Using built-in specs.
-COLLECT_GCC=E:\program files\MinGW\bin\c++.exe
-COLLECT_LTO_WRAPPER=e:/program\ files/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe
-Target: mingw32
-Configured with: ../src/gcc-6.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --with-gmp=/mingw --with-mpfr=/mingw --with-mpc=/mingw --with-isl=/mingw --prefix=/mingw --disable-win32-registry --target=mingw32 --with-arch=i586 --enable-languages=c,c++,objc,obj-c++,fortran,ada --with-pkgversion='MinGW.org GCC-6.3.0-1' --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --with-tune=generic --enable-libgomp --disable-libvtv --enable-nls
-Thread model: win32
-gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) 
-COMPILER_PATH=e:/program files/mingw/bin/../libexec/gcc/mingw32/6.3.0/;e:/program files/mingw/bin/../libexec/gcc/;e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/
-LIBRARY_PATH=e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/;e:/program files/mingw/bin/../lib/gcc/;e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/;e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8e8be.exe' '-shared-libgcc' '-mtune=generic' '-march=i586'
- e:/program files/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin e:/program files/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=e:/program files/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Zbook\AppData\Local\Temp\ccOGQ8dB.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_8e8be.exe e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Le:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0 -Le:/program files/mingw/bin/../lib/gcc -Le:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Le:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. CMakeFiles/cmTC_8e8be.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_8e8be.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8e8be.exe' '-shared-libgcc' '-mtune=generic' '-march=i586'
+COLLECT_GCC=D:\Program Files\CLion 2021.3\bin\mingw\bin\g++.exe
+COLLECT_LTO_WRAPPER=D:/Program\ Files/CLion\ 2021.3/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe
+Target: x86_64-w64-mingw32
+Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (GCC) 
+COMPILER_PATH=D:/Program Files/CLion 2021.3/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;D:/Program Files/CLion 2021.3/bin/mingw/bin/../libexec/gcc/
+LIBRARY_PATH=D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/;D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_63017.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_63017.'
+ D:/Program Files/CLion 2021.3/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_63017.exe D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LD:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LD:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc -LD:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -LD:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LD:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. --whole-archive CMakeFiles\cmTC_63017.dir/objects.a --no-whole-archive --out-implib libcmTC_63017.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_63017.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_63017.'
+mingw32-make[1]: Leaving directory 'D:/Projects/Tiny-Language-s-Compiler/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 
 Parsed CXX implicit include dir info from above output: rv=done
   found start of include info
   found start of implicit include info
-    add: [e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/include/c++]
-    add: [e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/include/c++/mingw32]
-    add: [e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/include/c++/backward]
-    add: [e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/include]
-    add: [e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../include]
-    add: [e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/include-fixed]
-    add: [e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/include]
+    add: [D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++]
+    add: [D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32]
+    add: [D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward]
+    add: [D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include]
+    add: [D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include]
+    add: [D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed]
+    add: [D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include]
   end of search list found
-  collapse include dir [e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/include/c++] ==> [E:/program files/MinGW/lib/gcc/mingw32/6.3.0/include/c++]
-  collapse include dir [e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/include/c++/mingw32] ==> [E:/program files/MinGW/lib/gcc/mingw32/6.3.0/include/c++/mingw32]
-  collapse include dir [e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/include/c++/backward] ==> [E:/program files/MinGW/lib/gcc/mingw32/6.3.0/include/c++/backward]
-  collapse include dir [e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/include] ==> [E:/program files/MinGW/lib/gcc/mingw32/6.3.0/include]
-  collapse include dir [e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../include] ==> [E:/program files/MinGW/include]
-  collapse include dir [e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/include-fixed] ==> [E:/program files/MinGW/lib/gcc/mingw32/6.3.0/include-fixed]
-  collapse include dir [e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/include] ==> [E:/program files/MinGW/mingw32/include]
-  implicit include dirs: [E:/program files/MinGW/lib/gcc/mingw32/6.3.0/include/c++;E:/program files/MinGW/lib/gcc/mingw32/6.3.0/include/c++/mingw32;E:/program files/MinGW/lib/gcc/mingw32/6.3.0/include/c++/backward;E:/program files/MinGW/lib/gcc/mingw32/6.3.0/include;E:/program files/MinGW/include;E:/program files/MinGW/lib/gcc/mingw32/6.3.0/include-fixed;E:/program files/MinGW/mingw32/include]
+  collapse include dir [D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++] ==> [D:/Program Files/CLion 2021.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++]
+  collapse include dir [D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32] ==> [D:/Program Files/CLion 2021.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32]
+  collapse include dir [D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward] ==> [D:/Program Files/CLion 2021.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward]
+  collapse include dir [D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include] ==> [D:/Program Files/CLion 2021.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include]
+  collapse include dir [D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include] ==> [D:/Program Files/CLion 2021.3/bin/mingw/include]
+  collapse include dir [D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed] ==> [D:/Program Files/CLion 2021.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed]
+  collapse include dir [D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include] ==> [D:/Program Files/CLion 2021.3/bin/mingw/x86_64-w64-mingw32/include]
+  implicit include dirs: [D:/Program Files/CLion 2021.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++;D:/Program Files/CLion 2021.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32;D:/Program Files/CLion 2021.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward;D:/Program Files/CLion 2021.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include;D:/Program Files/CLion 2021.3/bin/mingw/include;D:/Program Files/CLion 2021.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed;D:/Program Files/CLion 2021.3/bin/mingw/x86_64-w64-mingw32/include]
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: D:/FCAI/YEARS/YEAR4/first term/Compilers/assignments/assignment2/solution/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: D:/Projects/Tiny-Language-s-Compiler/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):E:/programs/CLion 2022.1.2/bin/ninja/win/ninja.exe cmTC_8e8be && [1/2] Building CXX object CMakeFiles/cmTC_8e8be.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [Run Build Command(s):D:/Program Files/CLion 2021.3/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_63017/fast && D:/Program Files/CLion 2021.3/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_63017.dir\build.make CMakeFiles/cmTC_63017.dir/build]
+  ignore line: [mingw32-make[1]: Entering directory 'D:/Projects/Tiny-Language-s-Compiler/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_63017.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: ["D:\Program Files\CLion 2021.3\bin\mingw\bin\g++.exe"   -v -o CMakeFiles\cmTC_63017.dir\CMakeCXXCompilerABI.cpp.obj -c "D:\Program Files\CLion 2021.3\bin\cmake\win\share\cmake-3.21\Modules\CMakeCXXCompilerABI.cpp"]
   ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=E:\program files\MinGW\bin\c++.exe]
-  ignore line: [Target: mingw32]
-  ignore line: [Configured with: ../src/gcc-6.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --with-gmp=/mingw --with-mpfr=/mingw --with-mpc=/mingw --with-isl=/mingw --prefix=/mingw --disable-win32-registry --target=mingw32 --with-arch=i586 --enable-languages=c c++ objc obj-c++ fortran ada --with-pkgversion='MinGW.org GCC-6.3.0-1' --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --with-tune=generic --enable-libgomp --disable-libvtv --enable-nls]
-  ignore line: [Thread model: win32]
-  ignore line: [gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8e8be.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586']
-  ignore line: [ e:/program files/mingw/bin/../libexec/gcc/mingw32/6.3.0/cc1plus.exe -quiet -v -iprefix e:\program files\mingw\bin\../lib/gcc/mingw32/6.3.0/ E:/programs/CLion 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=i586 -auxbase-strip CMakeFiles/cmTC_8e8be.dir/CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\Zbook\AppData\Local\Temp\ccQF4zyj.s]
-  ignore line: [GNU C++14 (MinGW.org GCC-6.3.0-1) version 6.3.0 (mingw32)]
-  ignore line: [	compiled by GNU C version 6.3.0  GMP version 6.1.2  MPFR version 3.1.5  MPC version 1.0.2  isl version 0.15]
-  ignore line: [warning: MPC header version 1.0.2 differs from library version 1.0.3.]
+  ignore line: [COLLECT_GCC=D:\Program Files\CLion 2021.3\bin\mingw\bin\g++.exe]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.2.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_63017.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_63017.dir\']
+  ignore line: [ D:/Program Files/CLion 2021.3/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -quiet -v -iprefix D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT D:\Program Files\CLion 2021.3\bin\cmake\win\share\cmake-3.21\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\cmTC_63017.dir\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\Users\Hema\AppData\Local\Temp\ccTy7eNX.s]
+  ignore line: [GNU C++17 (GCC) version 11.2.0 (x86_64-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-  ignore line: [ignoring duplicate directory "e:/program files/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include/c++"]
-  ignore line: [ignoring duplicate directory "e:/program files/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include/c++/mingw32"]
-  ignore line: [ignoring duplicate directory "e:/program files/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include/c++/backward"]
-  ignore line: [ignoring duplicate directory "e:/program files/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include"]
-  ignore line: [ignoring nonexistent directory "/mingw/include"]
-  ignore line: [ignoring duplicate directory "e:/program files/mingw/lib/gcc/../../include"]
-  ignore line: [ignoring duplicate directory "e:/program files/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include-fixed"]
-  ignore line: [ignoring duplicate directory "e:/program files/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"]
+  ignore line: [ignoring duplicate directory "D:/Program Files/CLion 2021.3/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"]
+  ignore line: [ignoring duplicate directory "D:/Program Files/CLion 2021.3/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"]
+  ignore line: [ignoring duplicate directory "D:/Program Files/CLion 2021.3/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"]
+  ignore line: [ignoring duplicate directory "D:/Program Files/CLion 2021.3/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"]
+  ignore line: [ignoring nonexistent directory "/win/include"]
+  ignore line: [ignoring duplicate directory "D:/Program Files/CLion 2021.3/bin/mingw/lib/gcc/../../include"]
+  ignore line: [ignoring duplicate directory "D:/Program Files/CLion 2021.3/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "D:/Program Files/CLion 2021.3/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"]
   ignore line: [ignoring nonexistent directory "/mingw/include"]
   ignore line: [#include "..." search starts here:]
   ignore line: [#include <...> search starts here:]
-  ignore line: [ e:\program files\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++]
-  ignore line: [ e:\program files\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32]
-  ignore line: [ e:\program files\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward]
-  ignore line: [ e:\program files\mingw\bin\../lib/gcc/mingw32/6.3.0/include]
-  ignore line: [ e:\program files\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include]
-  ignore line: [ e:\program files\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed]
-  ignore line: [ e:\program files\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include]
+  ignore line: [ D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++]
+  ignore line: [ D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32]
+  ignore line: [ D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward]
+  ignore line: [ D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include]
+  ignore line: [ D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include]
+  ignore line: [ D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed]
+  ignore line: [ D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include]
   ignore line: [End of search list.]
-  ignore line: [GNU C++14 (MinGW.org GCC-6.3.0-1) version 6.3.0 (mingw32)]
-  ignore line: [	compiled by GNU C version 6.3.0  GMP version 6.1.2  MPFR version 3.1.5  MPC version 1.0.2  isl version 0.15]
-  ignore line: [warning: MPC header version 1.0.2 differs from library version 1.0.3.]
+  ignore line: [GNU C++17 (GCC) version 11.2.0 (x86_64-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-  ignore line: [Compiler executable checksum: af09a87986453bf79da3565f33c7648f]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8e8be.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586']
-  ignore line: [ e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles/cmTC_8e8be.dir/CMakeCXXCompilerABI.cpp.obj C:\Users\Zbook\AppData\Local\Temp\ccQF4zyj.s]
-  ignore line: [GNU assembler version 2.28 (mingw32) using BFD version (GNU Binutils) 2.28]
-  ignore line: [COMPILER_PATH=e:/program files/mingw/bin/../libexec/gcc/mingw32/6.3.0/]
-  ignore line: [e:/program files/mingw/bin/../libexec/gcc/]
-  ignore line: [e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/]
-  ignore line: [LIBRARY_PATH=e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/]
-  ignore line: [e:/program files/mingw/bin/../lib/gcc/]
-  ignore line: [e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/]
-  ignore line: [e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8e8be.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586']
-  ignore line: [[2/2] Linking CXX executable cmTC_8e8be.exe]
+  ignore line: [Compiler executable checksum: 916242a6eadede3a42d72bc0142b939f]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_63017.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_63017.dir\']
+  ignore line: [ as -v -o CMakeFiles\cmTC_63017.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\Hema\AppData\Local\Temp\ccTy7eNX.s]
+  ignore line: [GNU assembler version 2.37 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.37]
+  ignore line: [COMPILER_PATH=D:/Program Files/CLion 2021.3/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/]
+  ignore line: [D:/Program Files/CLion 2021.3/bin/mingw/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/]
+  ignore line: [D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/]
+  ignore line: [D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/]
+  ignore line: [D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_63017.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_63017.dir\CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_63017.exe]
+  ignore line: ["D:\Program Files\CLion 2021.3\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_63017.dir\link.txt --verbose=1]
+  ignore line: ["D:\Program Files\CLion 2021.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_63017.dir/objects.a]
+  ignore line: ["D:\Program Files\CLion 2021.3\bin\mingw\bin\ar.exe" qc CMakeFiles\cmTC_63017.dir/objects.a @CMakeFiles\cmTC_63017.dir\objects1.rsp]
+  ignore line: ["D:\Program Files\CLion 2021.3\bin\mingw\bin\g++.exe"  -v -Wl --whole-archive CMakeFiles\cmTC_63017.dir/objects.a -Wl --no-whole-archive -o cmTC_63017.exe -Wl --out-implib libcmTC_63017.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
   ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=E:\program files\MinGW\bin\c++.exe]
-  ignore line: [COLLECT_LTO_WRAPPER=e:/program\ files/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe]
-  ignore line: [Target: mingw32]
-  ignore line: [Configured with: ../src/gcc-6.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --with-gmp=/mingw --with-mpfr=/mingw --with-mpc=/mingw --with-isl=/mingw --prefix=/mingw --disable-win32-registry --target=mingw32 --with-arch=i586 --enable-languages=c c++ objc obj-c++ fortran ada --with-pkgversion='MinGW.org GCC-6.3.0-1' --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --with-tune=generic --enable-libgomp --disable-libvtv --enable-nls]
-  ignore line: [Thread model: win32]
-  ignore line: [gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) ]
-  ignore line: [COMPILER_PATH=e:/program files/mingw/bin/../libexec/gcc/mingw32/6.3.0/]
-  ignore line: [e:/program files/mingw/bin/../libexec/gcc/]
-  ignore line: [e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/]
-  ignore line: [LIBRARY_PATH=e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/]
-  ignore line: [e:/program files/mingw/bin/../lib/gcc/]
-  ignore line: [e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/]
-  ignore line: [e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8e8be.exe' '-shared-libgcc' '-mtune=generic' '-march=i586']
-  ignore line: [ e:/program files/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin e:/program files/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=e:/program files/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Zbook\AppData\Local\Temp\ccOGQ8dB.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_8e8be.exe e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Le:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0 -Le:/program files/mingw/bin/../lib/gcc -Le:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Le:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. CMakeFiles/cmTC_8e8be.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_8e8be.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt e:/program files/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8e8be.exe' '-shared-libgcc' '-mtune=generic' '-march=i586']
+  ignore line: [COLLECT_GCC=D:\Program Files\CLion 2021.3\bin\mingw\bin\g++.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=D:/Program\ Files/CLion\ 2021.3/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.2.0 (GCC) ]
+  ignore line: [COMPILER_PATH=D:/Program Files/CLion 2021.3/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/]
+  ignore line: [D:/Program Files/CLion 2021.3/bin/mingw/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/]
+  ignore line: [D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/]
+  ignore line: [D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/]
+  ignore line: [D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_63017.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_63017.']
+  ignore line: [ D:/Program Files/CLion 2021.3/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_63017.exe D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LD:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LD:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc -LD:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -LD:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LD:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. --whole-archive CMakeFiles\cmTC_63017.dir/objects.a --no-whole-archive --out-implib libcmTC_63017.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/Program Files/CLion 2021.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_63017.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_63017.']
+  ignore line: [mingw32-make[1]: Leaving directory 'D:/Projects/Tiny-Language-s-Compiler/cmake-build-debug/CMakeFiles/CMakeTmp']
   ignore line: []
   ignore line: []
   implicit libs: []

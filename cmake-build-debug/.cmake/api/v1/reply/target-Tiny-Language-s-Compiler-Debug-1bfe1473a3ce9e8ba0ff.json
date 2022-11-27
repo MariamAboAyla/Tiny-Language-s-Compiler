@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "solution.exe"
+			"path" : "Tiny-Language-s-Compiler.exe"
 		},
 		{
-			"path" : "solution.pdb"
+			"path" : "Tiny-Language-s-Compiler.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -39,6 +39,9 @@
 			[
 				{
 					"fragment" : "-g"
+				},
+				{
+					"fragment" : "-std=gnu++14"
 				}
 			],
 			"language" : "CXX",
@@ -56,7 +59,7 @@
 			]
 		}
 	],
-	"id" : "solution::@6890427a1f51a3e7e1df",
+	"id" : "Tiny-Language-s-Compiler::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,8 +79,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "solution",
-	"nameOnDisk" : "solution.exe",
+	"name" : "Tiny-Language-s-Compiler",
+	"nameOnDisk" : "Tiny-Language-s-Compiler.exe",
 	"paths" : 
 	{
 		"build" : ".",

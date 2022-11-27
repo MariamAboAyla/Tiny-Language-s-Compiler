@@ -9,7 +9,7 @@
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.22"
+						"string" : "3.21"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "solution",
+					"name" : "Tiny-Language-s-Compiler",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "solution::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-solution-Debug-156997353080e50fc99d.json",
-					"name" : "solution",
+					"id" : "Tiny-Language-s-Compiler::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Tiny-Language-s-Compiler-Debug-1bfe1473a3ce9e8ba0ff.json",
+					"name" : "Tiny-Language-s-Compiler",
 					"projectIndex" : 0
 				}
 			]
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "D:/FCAI/YEARS/YEAR4/first term/Compilers/assignments/assignment2/solution/cmake-build-debug",
-		"source" : "D:/FCAI/YEARS/YEAR4/first term/Compilers/assignments/assignment2/solution"
+		"build" : "D:/Projects/Tiny-Language-s-Compiler/cmake-build-debug",
+		"source" : "D:/Projects/Tiny-Language-s-Compiler"
 	},
 	"version" : 
 	{
