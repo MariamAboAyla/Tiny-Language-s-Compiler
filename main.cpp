@@ -1,23 +1,21 @@
 #include <iostream>
-#include <cstdio>
-#include <cstdlib>
-#include <cstring>
-#include "scanner.cpp"
-#include "parser.cpp"
+#include "syntaxTree.cpp"
+#include "analyzer.cpp"
 using namespace std;
+
+
 int main() {
-    string filePath;
-    cout<<"Please Enter File Path \n";
-    getline(cin,filePath);
-    CompilerInfo compiler(filePath.c_str(), "output.txt", "debug.txt");
 
-    cout << "Start main()\n";
+    CompilerInfo compilerInfo("input.txt", "output.txt", "debug.txt");
+    // parseTree contains teh program's parse tree
+    TreeNode* parseTree = Parse(&compilerInfo);
+//    PrintTree(parseTree);
+//    fflush(NULL);
 
-    TreeNode *parseTree = Program(&compiler);
-    PrintTree(parseTree);
-    fflush(NULL);
-
-    cout << "End main()\n";
+    // 1) symbol table
+    // 2) update type of data if non-void = done
+    // 3) run simulation
+//    SymbolTable symbolTable()
 
     return 0;
 }
