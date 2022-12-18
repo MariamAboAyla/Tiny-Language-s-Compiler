@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/DELL/Documents/GitHub/Tiny-Language-s-Compiler
+# Install script for directory: D:/FCAI/YEARS/YEAR4/first term/Compilers/assignments/assignment3/solution
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Tiny-Language-s-Compiler")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/solution")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,7 +34,7 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/Program Files/JetBrains/CLion 2022.2.4/bin/mingw/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "E:/program files/MinGW/bin/objdump.exe")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/DELL/Documents/GitHub/Tiny-Language-s-Compiler/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/FCAI/YEARS/YEAR4/first term/Compilers/assignments/assignment3/solution/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
